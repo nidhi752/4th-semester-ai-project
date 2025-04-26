@@ -31,7 +31,7 @@ The project includes:
 
 1. **Clone the repository:**
    ```
-   git clone 
+   git clone https://github.com/nidhi752/4th-semester-ai-project.git
    
    ```
 
