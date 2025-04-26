@@ -22,7 +22,7 @@ The project includes:
 ├── main.py          # FastAPI application with endpoints
 ├── trial2.keras     # Pre-trained MLP model
 ├── README.md        # Project documentation
-└── requirements.txt # Dependencies (if any)
+└── requirements.txt # Dependencies
 ```
 
 ---
@@ -31,13 +31,13 @@ The project includes:
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/your-username/drug-discovery-fastapi.git
-   cd drug-discovery-fastapi
+   git clone 
+   
    ```
 
 2. **Install required packages:**
    ```
-   pip install fastapi uvicorn pydantic tensorflow numpy
+   pip install -r requirements.txt
    ```
 
 3. **Start the FastAPI server:**
@@ -47,25 +47,28 @@ The project includes:
 
 4. **Access in browser:**
    - Home page: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
-   - Interactive Swagger UI: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
 ---
 
 ## 🌟 API Endpoints
 
 - `GET /`
-  - Check if the server is running.
-  - Response: `{ "message": "MLP Drug Discovery API is running!" }`
-  
+  - Checks if the server is running.
+  - Example response:
+    ```json
+    {
+      "message": "MLP Drug Discovery API is running!"
+    }
+    ```
+
 - `POST /predict`
-  - Input: JSON object containing a list of molecular feature values.
+  - Input: JSON object containing molecular feature values.
   - Example input:
     ```json
     {
       "features": [0.0093, 0.6553, 0.5772, 0.6876]
     }
     ```
-  - Response: Predicted output from the trained MLP model.
   - Example output:
     ```json
     {
@@ -77,11 +80,14 @@ The project includes:
 
 ## 📸 Preview
 
-| Home Page | Swagger UI | Prediction Example |
-|:---------:|:----------:|:------------------:|
-| ![Home Screenshot](5th.png) | ![Prediction Screenshot](1st.png)(2nd.png)(3rd.png)(4th.png) |
+| Home Page | Prediction Example |
+|:---------:|:------------------:|
+| ![Home Screenshot](5th.png) | ![Prediction Screenshot 1](1st.png) |
+|  | ![Prediction Screenshot 2](2nd.png) |
+|  | ![Prediction Screenshot 3](3rd.png) |
+|  | ![Prediction Screenshot 4](4th.png) |
 
-*(Replace the paths above with your actual screenshot paths.)*
+*(Make sure the images are in the same folder as your `README.md` or adjust the paths accordingly.)*
 
 ---
 
@@ -98,10 +104,10 @@ The project includes:
 
 ## 🚀 Future Enhancements
 
-- Deploy to AWS / GCP for public access.
-- Expand model to multi-output predictions (classification + regression).
-- Implement security (authentication, CORS policies).
-- Add database integration for storing historical predictions.
+- Deploy on AWS / Azure / GCP for real-world testing.
+- Integrate authentication for secure API access.
+- Expand to handle multi-class or multi-label classification problems.
+- Log and store predictions in a database for future analytics.
 
 ---
 
@@ -109,15 +115,16 @@ The project includes:
 
 - [TensorFlow Documentation](https://www.tensorflow.org/)
 - [FastAPI Documentation](https://fastapi.tiangolo.com/)
-- Inspiration from latest research on AI-driven drug discovery (Nature, Science, IEEE papers).
+- Inspired by cutting-edge AI research in drug discovery (Nature, IEEE, Science).
 
 ---
 
 ## 📜 License
 
-This project is licensed for educational purposes only.  
+This project is licensed for educational use only.  
 © 2025 Nidhi Kuntal
 
 ---
 
-# ✨ Thank you for exploring the project!
+# ✨ Thank you for exploring this project!
+
