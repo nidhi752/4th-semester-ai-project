@@ -1,7 +1,3 @@
-Got you! Here's a **professional, neat, and attractive `README.md`** for your Drug Discovery FastAPI project:
-
----
-
 # 🚀 Drug Discovery with Machine Learning and FastAPI
 
 Welcome to the **Drug Discovery Acceleration Project**!  
@@ -83,7 +79,7 @@ The project includes:
 
 | Home Page | Swagger UI | Prediction Example |
 |:---------:|:----------:|:------------------:|
-| ![Home Screenshot](attachments/fastapi_home.png) | ![Swagger Screenshot](attachments/swagger_ui.png) | ![Prediction Screenshot](attachments/predict_output.png) |
+| ![Home Screenshot](5th.png) | ![Prediction Screenshot](1st.png)(2nd.png)(3rd.png)(4th.png) |
 
 *(Replace the paths above with your actual screenshot paths.)*
 
